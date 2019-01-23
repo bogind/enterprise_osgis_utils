@@ -1,7 +1,7 @@
 import psycopg2
 
 
-conn = psycopg2.connect(host="localhost", database="br7", user="drorb", password="9822")
+conn = psycopg2.connect(host="localhost", database="DATABASE_NAME", user="postgres", password="")
 cur = conn.cursor()
 print("connected to database")
 
